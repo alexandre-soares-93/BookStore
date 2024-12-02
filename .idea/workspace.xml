@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ae5d21f-0100-4a60-a0ec-3abb649df5df" name="Changes" comment="Primeiro Commit Testes BookStore">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ce/asoares/BookStore/Account/Token/EndPointToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ce/asoares/BookStore/Account/Token/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ce/asoares/BookStore/Account/Token/TokenPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ce/asoares/BookStore/Account/Token/teste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,18 +29,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "alexandre-soares-93"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;alexandre-soares-93&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/alexandre-soares-93/BookStore.git",
-    "accountId": "db743753-e39d-440e-aea9-d5452d1f966e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/alexandre-soares-93/BookStore.git&quot;,
+    &quot;accountId&quot;: &quot;db743753-e39d-440e-aea9-d5452d1f966e&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -51,10 +55,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.teste.executor": "Run",
     "Cucumber Java.Scenario: Criar usuario.executor": "Run",
     "JUnit.CriarUserTest.executor": "Run",
     "JUnit.TestUser.criarUsuario.executor": "Run",
     "JUnit.TestUser.executor": "Run",
+    "JUnit.TokenTest.TokenValido.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -62,19 +68,13 @@
     "onboarding.tips.debug.path": "/Users/alexandresoaresdeoliveira/IdeaProjects/BookStore/src/main/java/br/ce/asoares/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CriarUserTest">
-    <configuration name="Scenario: Criar usuario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/CriaUsuario/criaUsuario.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+  <component name="RunManager" selected="Application.teste">
+    <configuration name="teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.ce.asoares.BookStore.Account.Token.teste" />
       <module name="BookStore" />
-      <option name="NAME_FILTER" value="^Criar usuario$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Criar usuario$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Criar usuario" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="br.ce.asoares.BookStore.Account.Token.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +122,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TokenTest.TokenValido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BookStore" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TokenTest" />
+      <option name="METHOD_NAME" value="TokenValido" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.teste" />
+        <item itemvalue="JUnit.TokenTest.TokenValido" />
         <item itemvalue="JUnit.CriarUserTest" />
         <item itemvalue="JUnit.TestUser.criarUsuario" />
         <item itemvalue="JUnit.TestUser" />
-        <item itemvalue="Cucumber Java.Scenario: Criar usuario" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732987801526</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Primeiro Commit Testes BookStore">
+      <option name="closed" value="true" />
+      <created>1732993218056</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732993218056</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
