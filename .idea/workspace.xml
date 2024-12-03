@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ae5d21f-0100-4a60-a0ec-3abb649df5df" name="Changes" comment="Primeiro Commit Testes BookStore">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ce/asoares/BookStore/Account/Token/EndPointToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ce/asoares/BookStore/Account/Token/Token.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ce/asoares/BookStore/Account/Token/TokenPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ce/asoares/BookStore/Account/Token/teste.java" afterDir="false" />
+    <list default="true" id="3ae5d21f-0100-4a60-a0ec-3abb649df5df" name="Changes" comment="Criação das classes de autenticação via token">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,11 +171,36 @@
       <option name="project" value="LOCAL" />
       <updated>1732993218056</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Primeiro Commit Testes BookStore">
+      <option name="closed" value="true" />
+      <created>1733179340283</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733179340283</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Criação das classes de autenticação via token">
+      <option name="closed" value="true" />
+      <created>1733179403759</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733179403759</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Criação das classes de autenticação via token">
+      <option name="closed" value="true" />
+      <created>1733179413851</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733179413851</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primeiro Commit Testes BookStore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primeiro Commit Testes BookStore" />
+    <MESSAGE value="Criação das classes de autenticação via token" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação das classes de autenticação via token" />
   </component>
 </project>

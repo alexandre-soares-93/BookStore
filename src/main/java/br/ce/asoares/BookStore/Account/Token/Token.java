@@ -5,7 +5,6 @@ import io.restassured.http.ContentType;
 import io.restassured.http.Method;
 import io.restassured.response.Response;
 import lombok.Setter;
-import org.apache.http.HttpStatus;
 import org.json.JSONObject;
 
 
